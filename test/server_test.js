@@ -20,6 +20,16 @@ describe("testing server module", function() {
                 done();
             });
     });
+	
+    it('it should give 401 status; wrong API_KEY provided', (done) => {
+        chai.request(server)
+            .get('/initialize?API_KEY=wrong')
+            .end((err, res) => {
+                res.should.have.status(401);
+                res.body.should.be.a('object');
+                done();
+            });
+    });
 
 	it('it should remove previous data & add sample data', (done) => {
         chai.request(server)
