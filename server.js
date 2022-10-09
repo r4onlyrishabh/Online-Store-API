@@ -26,7 +26,8 @@ function addSampleData(response) {
     {_id:16,name:"toys",added_at : "Tue, 23 Oct 2015 14:06:02 GMT"},
     {_id:17,name:"novel",added_at : "Tue, 23 Oct 2015 14:06:02 GMT"},
     {_id:18,name:"study",added_at : "Tue, 23 Oct 2015 14:06:02 GMT"},
-    {_id:19,name:"sofa",added_at : "Tue, 23 Oct 2015 14:06:02 GMT"}
+    {_id:19,name:"sofa",added_at : "Tue, 23 Oct 2015 14:06:02 GMT"},
+    {_id:20,name:"stationary",added_at : "Tue, 23 Oct 2019 14:06:02 GMT"}
   ];
 
   var users = [
